@@ -1,0 +1,49 @@
+{
+  "name": "rent.vnetby.net",
+  "version": "1.0.0",
+  "description": "rent.vnetby.net",
+  "main": "index.js",
+  "scripts": {
+    "assets": "node wp-content/themes/reny/assets/conf.js",
+    "webpack-dev": "webpack",
+    "webpack-build": "webpack --env=build"
+  },
+  "author": "Vadzim Kananovich",
+  "license": "ISC",
+  "browserslist": [
+    "ie >= 8",
+    "last 4 version"
+  ],
+  "dependencies": {
+    "core-js": "^2.6.9",
+    "detect-browser": "^4.7.0",
+    "es6-promise": "^4.2.8",
+    "promise-polyfill": "^8.1.3",
+    "mobile-device-detect": "^0.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/polyfill": "^7.6.0",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "@babel/register": "^7.6.2",
+    "autoprefixer": "^9.6.5",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babelrc-rollup": "^3.0.0",
+    "css-loader": "^3.2.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "fs": "0.0.1-security",
+    "less": "^3.11.1",
+    "less-loader": "^5.0.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
